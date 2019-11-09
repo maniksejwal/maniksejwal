@@ -1,0 +1,36 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+
+
+    "redirects":
+    [
+      {
+        "source": "/cv.html",
+        "destination": "/CV.html",
+        "type": 301
+      },
+      {
+        "source": "/cv",
+        "destination": "/CV.html",
+        "type": 301
+      },
+      {
+        "source": "/CV",
+        "destination": "/CV.html",
+        "type": 301
+      },
+      {
+        "source": "/index",
+        "destination": "/",
+        "type": 301
+      }
+    ]
+
+  }
+}
