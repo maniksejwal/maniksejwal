@@ -3,39 +3,16 @@
 <html>
   <head>
     <title>Manik Sejwal</title>
-    <style>
-      table, th, td {
-        border: 1px solid gray;
-        border-collapse: collapse;
-        padding: 0.5vw;
-      }
-      .section {
-        background:#eeeeee;
-        padding:1.5vw;
-        border-radius:1vw;
-      }
-      h3 {
-        justify-content: space-between;
-        display: flex;
-        margin-left: .5vw;
-        margin-right: .5vw;
-        margin-top: -.5vw;
-        margin-bottom: -.5vw;
-      }
-      li {
-        padding: 0.2vw;
-      }
-      .date {
-        color: #555555;
-        font-style: italic;
-      }
-    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body style="margin:4vw">
-    <center><h1 style="border-radius:1vw; display:inline-block; background-color:#eeeeee; padding:1vw 1.5vw 1vw 1.5vw;">Curriculum Vitae</h1></center>
+    <a href="https://maniksejwal.com" style="padding:1vw"><img src="https://image.flaticon.com/icons/svg/263/263115.svg" style="height: 20px"></a>
+    <center><h1 class="section" style="display:inline-block;">Curriculum Vitae</h1></center>
 
-    <center><ul style="text-align: left; border-radius:1vw; display:inline-block; background-color:#eeeeee; padding:1vw 2vw 1vw 2vw;">
+    <center><ul class="section" style="text-align: left; display:inline-block;">
       <li><a href="#1">Projects</a></li>
       <li><a href="#2">Training</a></li>
       <li><a href="#3">Education</a></li>
@@ -49,64 +26,65 @@
     <div class="section">
       <h2 id="1">PROJECTS</h2>
 
-      <h3>
+      <h4>
         <span><a href="https://www.overleaf.com/read/xcdjcnhcxtgy">ONE CHAIN TO FIND THEM ALL</a></span>
         <span class="date">June 2019 -- Present</span>
-      </h3>
+      </h4>
       <ul>
         <li>Working on a project to create an ad hoc network for D2D mobile communication (text only) after natural disasters (floods and earthquakes) to enable communication and data analytics after failure of centralized communication methods and before the arrival of rescue forces.</li>
         <li>In talks with UNDP, Lava International and NDRF for guidance, implementation and deployment. The project is still in ideation.</li>
       </ul>
 
-      <h3>
+      <h4>
         <span>SWINE</span>
         <span class="date">April 2019 -- Present</span>
-      </h3>
+      </h4>
       <ul>
         <li>Working to create a robot that would identify and pick pieces of garbage from the street and bring it to a nearby collection truck</li>
         <li>Created and hand labelled the video dataset using MATLAB's Video Labeller</li>
       </ul>
 
-      <h3>
-        <span>BSES RAJDHANI POWER LIMITED</span>
+      <h4>
+        <span><a href="https://www.bsesdelhi.com/web/brpl">BSES RAJDHANI POWER LIMITED</a></span>
         <span class="date">September 2018 -- Present</span>
-      </h3>
+      </h4>
       <ul>
-        <li>Designed LSTM networks using random architecture search to <b>predict extra high voltage electric feeders failures by using temporal dependence on a few SCADA inputs</b>. This is for use in cities that don’t have proper static data for a conventional static approach.</li>
+        <li>Designed LSTM networks using random architecture search to <b><a href="https://github.com/susano0/Electric-Fault-Prediction">predicted</b> extra high voltage electric <b>feeders failures</b> by using temporal dependence on a few SCADA inputs</a>. This is for use in cities that don’t have proper static data for a conventional static approach.</li>
         <li>Used raw data from the data warehouse (70 GB) to create training sets of different resolutions. Currently working on the testing through deployment of the model and creating a new model with a more reliable definition of an electric fault.</li>
       </ul>
 
-      <h3>
+      <h4>
         <span><a href="https://memory-athlete.com/">MEMORY ATHLETE</a></b></span>
         <span class="date">February 2017 -- Present</span>
-      </h3>
+      </h4>
       <ul>
           <li>Developed the open source (MIT Lisence) <a href="https://play.google.com/store/apps/details?id=com.memory_athelte.memoryassistant">android application</a> from scratch, supervised the development on other platforms</li>
           <li>Scraped the web for text, HTML and image resources which are used to generate lists and provide learning and practice material to the users</li>
           <li>Created algorithms
             <ol>
               <li>Compare a list of manually entered responses with a list of correct answers while taking into consideration the efficiency and multiple human errors that could cause major errors in the comparison</li>
-              <li>Search for text in the users files and scroll to it. The simplicity and speed are what distinguish it.</li>
+              <li>Search for text in the user's files and scroll to it. The simplicity and speed are what distinguish it.</li>
+              <li>The app is filled with sanity checks and handling of different file formats, is heavilly nested and customizable. Despite that it provides a seamless user experience.</li>
             </ol>
           </li>
           <li>Handle the user experience and interface, repository, release, advertisements, acquisition, translations, legalities, contributor recruitment and financesof the project.</li>
-          <li>The app has received over <b>70,000 downloads</b> despite a very small target audience and has been accepted at <b>Open-Forge</b>, the Open Source initiative by the Government of India</li>
+          <li>The app has received over <b>70,000 downloads</b> despite a very small target audience and has been accepted at <a href="https://openforge.gov.in/projects/MemAth/">OpenForge</a>, the Open Source initiative by the Government of India</li>
       </ul>
 
-      <h3>
-        <span>Bluewhale Challenge</span>
+      <h4>
+        <span>BLUEWHALE CHALLENGE</span>
         <span class="date">April 2019 -- May 2019</span>
-      </h3>
+      </h4>
       <ul>
-        <li>Created a parody of the original challenge based on rumors to attract suicidal people and redirect them to a chatbot for mental health.</span>
+        <li>Created a parody of the original challenge based on rumors to attract suicidal people and redirect them to a chatbot for mental health. Shelved.</li>
       </ul>
 
-      <h3>
+      <h4>
         <span>ZUKI MESSENGER</span>
         <span class="date">November 2017 -- July 2018</span> <!-- long dash : –    -->
-      </h3>
+      </h4>
       <ul>
-          <li>Responsible for design and development of the android application and the server side programming.</li>
+          <li>Responsible for design and development of the android application and the server side programming. Shelved.</li>
       </ul>
     </div>
 
@@ -115,27 +93,27 @@
     <div class="section">
       <h2 id="2">TRAINING</h2>
 
-      <h3>
-        <span>LAVA INTERNATIONAL LIMITED, NOIDA</span>
+      <h4>
+        <span><a href="https://www.lavamobiles.com/">LAVA INTERNATIONAL LIMITED, NOIDA</a></span>
         <span class="date">December 2018 -- January 2019</span>
-      </h3>
+      </h4>
       <ul>
         <li>Worked on a project to read <b>text from images</b> of documents and replace wrongly scanned missing characters</li>
         <li>Performed <b>clustering on images</b> using neural networks using the t-SNE algorithm to calculate the loss and an auto-encoder to reduce training time</li>
       </ul>
 
-      <h3>
-        <span>BOMBAY SUBURB ELECTRICITY SUPPLY, NEW DELHI</span>
+      <h4>
+        <span><a href="https://www.bsesdelhi.com/">BOMBAY SUBURB ELECTRICITY SUPPLY, NEW DELHI</a></span>
         <span class="date">June 2018 -- July 2018</span>
-      </h3>
+      </h4>
       <ul>
         <li>Learned <b>Data Science</b> and <b>analyzed</b> the billing data for the months February and March, 2018 using the SciPy environment</li>
       </ul>
 
-      <h3>
-        <span>DEEP FOUNDATION, NEW DELHI</span>
+      <h4>
+        <span><a href="https://www.facebook.com/deepfoundationindia/">DEEP FOUNDATION, NEW DELHI</a></span>
         <span class="date">October 2014 –- December 2014<span>
-      </h3>
+      </h4>
       <ul>
         <li>Taught computer science, physics, chemistry, and mathematics to students of classes eighth to twelfth</li>
         <li>Organized multiple celebrations on festivals like Dussehra, Diwali, Eid, Christmas, et cetera</li>
@@ -215,10 +193,10 @@
       <h2 id="5">EXTRA-CURRICULAR ACTIVITIES</h2>
 
       <table style="width:100%">
-        <tr><td>Competed and became a table official in the <b>Abu Dhabi Combat Club India Open 2019</b></td><td>June 2019</td></tr>
-        <tr><td>Secured <b>1st</b> position at the <b>Smart India Hackathon</b> 2019 (software edition, complex problem). Predicted renewable energy generation</td><td>March 2019</td></tr>
+        <tr><td><a href="https://smoothcomp.com/en/profile/256684">Competed</a> in the <b>Abu Dhabi Combat Club India Open</b> 2019 in the 18+ mens, under 60kg category</td><td>June 2019</td></tr>
+        <tr><td><img class="icon" src="https://image.flaticon.com/icons/svg/321/321773.svg" alt="1st position">&nbsp&nbspSecured <b>1st</b> position at the <b>Smart India Hackathon</b> 2019 (software edition, complex problem). Predicted renewable energy generation</td><td>March 2019</td></tr>
         <tr><td>Represented Delhi in the <b>National Grappling Championship</b> in the under 58 kg, under 19, Gi division</td><td>August 2016</td></tr>
-        <tr><td>Secured <b>3rd</b> position in the <b>Delhi State Grappling Championship</b> in the No-Gi division</td><td>July 2016</td></tr>
+        <tr><td><img class="icon" src="https://image.flaticon.com/icons/svg/1435/1435677.svg" alt="3rd">&nbsp&nbspSecured <b>3rd</b> position in the <b>Delhi State Grappling Championship</b> in the No-Gi division</td><td>July 2016</td></tr>
       </table>
     </div>
 
@@ -228,22 +206,29 @@
       <h2 id="6">TOOLS, TECHNOLOGIES AND OTHER SKILLS</h2>
 
       <ul>
-        <li><b>Python</b>, Tensorflow, Keras, SciPy environment, BeautifulSoup. <b>Java</b>, Android Studio, Espresso, Firebase, Google Ads, Kotlin, Flutter. <b>C++</b>, <b>MATLAB</b>, JavaScript, LaTeX, SQL, XML, XHTML, HTML, Vim, GIMP, AutoCAD, Go Lang, </li>
+        <li><b>Python</b>, Tensorflow, Keras, SciPy environment, BeautifulSoup, PyCharm. <b>Java</b>, Android Studio, Espresso, Firebase, Google Ads, Kotlin, Flutter. <b>C++</b>, cLion, <b>MATLAB</b>, JavaScript, LaTeX, Git, SQL, XML, XHTML, HTML, Bash, Vim, GIMP, Kotlin, Flask, AutoCAD, Go Lang</li>
         <li><b>Data Science</b>, <b>Machine Learning</b>, <b>Mobile App Development</b>, <b>Electrical Grid and Power Generation</b>, Computer Vision, Natural Language Processing, Internet of Things, Rasberry Pi, Arduino, Linux operating systems, Cyber Security, Blockchain Technologies, Robotics</li>
-        <li><b>English</b>, <b>Hindi</b>, French, Spanish, German, Norwegian, Hiragana, Katakana, Chinese character, Sanskrit, Russian, Italian, <b>Shorthand</b></li>
-        <li>Memory Sports, Brazilian Jiu-Jitsu, Boxing, Muay Thai, Football, Swimming, Pistol Shooting, Yoga, Keyboard, Tabla, Jazz (Dance), Mosh, History, Psychology, Economics</li>
+        <li><b>English</b>, <b>Hindi</b>, French, Spanish, German, Norwegian, Hiragana, Katakana, Chinese character, Sanskrit, Russian, Italian, <b>Pitman Shorthand</b></li>
+        <li><b>Memory Sports</b>, <b>Brazilian Jiu-Jitsu</b>, <b>Boxing</b>, <b>Muay Thai</b>, <b>Football</b>, <b>Swimming</b>, <b>Yoga</b>, Pistol Shooting, High Jump, <b>Keyboard</b>, Tabla, Mosh, Jazz (Dance), <b>History</b>, <b>Psychology</b>, Economics</li>
       </ul>
     </div>
 
     <br/>
 
     <div class="section">
-      <h2 id="7">POSITION OF RESPONSIBILITY</h2>
+      <h2 id="7">POSITIONS OF RESPONSIBILITY</h2>
 
-      <h3>
-        <span>Technical executive and Student Representative, Association of Computing Machinery, BVCOE</span>
+      <h4>
+        <span>Table official, <a href="https://adcombat.com/adcc-events/adcc-india-open-2019/">ADCC India Open 2019</a></span>
+        <span class="date">June 2019</span>
+      </h4>
+
+      <br/>
+
+      <h4>
+        <span>Technical executive and Student Representative, <a href="https://bvcoe.acm.org/">Association of Computing Machinery, BVCOE</a></span>
         <span class="date">August 2016 -- November 2017</span>
-      </h3>
+      </h4>
       <ul>
         <li>Recruited new members for the society and publicized various events conducted by the society</li>
         <li>Organized seminars by notable speakers, society fests, other society events, competitions, workshops, et cetera</li>
@@ -255,10 +240,10 @@
     <div class="section">
       <h2 id="8">PUBLICATIONS</h2>
 
-      <h3>
-        <span>Transition to Autonomous Vehicles: Feasibility and Implications in The Near Future</span>
-        <span class="date">JICSE, 2018</span>
-      </h3>
+      <h4>
+        <span><a href="files/Transition_to_autonomous_vehicles.pdf">Transition to Autonomous Vehicles: Feasibility and Implications in The Near Future</a>, <a href="http://www.indianjournals.com/ijor.aspx?target=ijor:jicse&volume=7&issue=2&article=004">JICSE</a></span>
+        <span class="date">2018</a></span>
+      </h4>
       <ul>
         <li>Analyzed the need of autonomous vehicles based on recent studies and technological improvements. Followed it by a thorough study of the challenges faced by Autonomous Vehicles and how the transition can be accelerated.</li>
       </ul>

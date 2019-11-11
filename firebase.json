@@ -16,6 +16,11 @@
         "type": 301
       },
       {
+        "source": "/CV.HTML",
+        "destination": "/CV.html",
+        "type": 301
+      },
+      {
         "source": "/cv",
         "destination": "/CV.html",
         "type": 301
@@ -28,6 +33,46 @@
       {
         "source": "/index",
         "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/INDEX",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/FILES/TRANSITION_TO_AUTONOMOUS_VEHICLES.PDF",
+        "destination": "/files/Transition_to_autonomous_vehicles.pdf",
+        "type": 301
+      },
+      {
+        "source": "/files/Transition_to_autonomous_vehicles.PDF",
+        "destination": "/files/Transition_to_autonomous_vehicles.pdf",
+        "type": 301
+      },
+      {
+        "source": "/Files/transition_to_autonomous_vehicles.pdf",
+        "destination": "/files/Transition_to_autonomous_vehicles.pdf",
+        "type": 301
+      },
+      {
+        "source": "/files/transition_to_autonomous_vehicles",
+        "destination": "/files/Transition_to_autonomous_vehicles.pdf",
+        "type": 301
+      },
+      {
+        "source": "/files/transition to autonomous vehicles.pdf",
+        "destination": "/files/Transition_to_autonomous_vehicles.pdf",
+        "type": 301
+      },
+      {
+        "source": "/files/transition to autonomous vehicles",
+        "destination": "/files/Transition_to_autonomous_vehicles.pdf",
+        "type": 301
+      },
+      {
+        "source": "/Files/transition to autonomous vehicles",
+        "destination": "/files/Transition_to_autonomous_vehicles.pdf",
         "type": 301
       }
     ]
