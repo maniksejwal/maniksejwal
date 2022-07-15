@@ -66,3 +66,11 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# .idea files environment variables file
+/.idea/.gitignore
+/.idea/CV.iml
+/.idea/jsLibraryMappings.xml
+/.idea/modules.xml
+/package-lock.json
+/.idea/vcs.xml
