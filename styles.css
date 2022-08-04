@@ -26,3 +26,8 @@ li {
 img.icon {
   max-height: 15px;
 }
+img.company {
+  max-height: 30px;
+  margin-left:1vw;
+  margin-bottom:8px;
+}
